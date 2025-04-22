@@ -1,18 +1,10 @@
-# blivedm
 
-Python获取bilibili直播弹幕的库，使用WebSocket协议，支持web端和B站直播开放平台两种接口
+# 简介
+就是把blivedm和pyttsx3揉在一起了，没啥技术含量。
 
-[协议解释](https://open-live.bilibili.com/document/657d8e34-f926-a133-16c0-300c1afc6e6b)
+另外，顺便做了个极简单的弹幕滚动功能。
 
-基于本库开发的一个应用：[blivechat](https://github.com/xfgryujk/blivechat)
+后续看能不能把vtube studio API也揉进去，实现基于弹幕播放live2d动画。
 
-## 使用说明
-
-1. 需要Python 3.8及以上版本
-2. 安装依赖
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-3. web端例程在[sample.py](./sample.py)，B站直播开放平台例程在[open_live_sample.py](./open_live_sample.py)
+## 使用方法
+直接run sample.py这个脚本即可
